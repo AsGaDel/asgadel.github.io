@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/* CSS DE LA CABECERA*/
+
+
+.nombreweb h1{
+    font-size: 50px;
+}
+
+div.menu {
+    background-color: rgb(43, 43, 43);
+    margin: 0.3%;
+    position: relative;
+    width: 99.3%;
+    height: 80px;
+}
+
+.webinfo{
+    position: absolute;
+    
+    top: 11%;
+    left: 1%;
+    width: 20%;
+    height: 80%;
+}
+
+.logo {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    bottom: 10px;
+    top: -12px;
+}
+
+div.logo > img{
+    background-color: transparent;
+    max-width: 80%;
+}
+
+div.nombreweb{
+    position: absolute;
+    left: 28%;
+    top: 6%;
+}
+
+.all{
+    color: white;
+}
+
+.shoes{
+    color: orangered;
+}
+
+div.menuenlaces{
+    position: absolute;
+    top: 11%;
+    left: 35%;
+    width: 64.5%;
+    height: 80%;
+    display: flow-root;
+    top: 20%;
+    
+}
+
+div.menuenlaces div {
+    width:auto;
+    float: right;
+    text-align: center;
+    
+}
+
+.menuenlaces div a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+    text-wrap: nowrap;
+}
+
+.menuenlaces div a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.linea:after {
+    content: " ";
+    display: block;
+    border-bottom: 3px solid rgb(51, 51, 51);
+    display: relative;
+    height: 12px;
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flow-root;
+}
+
+.titulo{
+    margin: 0.3%;
+    position: relative;
+    width: 99.3%;
+    height: 70px;
+    text-align: center;
+    padding: 25px;
+}
+
+.titulo h1{
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(51, 51, 51);
+}
+
+
+/* CSS DE LA INFORMACION DE LA TIENDA*/
+
+.lineaproductos{
+    margin: 0.3%;
+    position: relative;
+    width: 99.3%;
+    height: 600px;
+}
+
+/* CSS DE LOS PRODUCTOS*/
+
+.producto{
+    position: relative;
+    float: left;
+    top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 23.5%;
+    height: 500px;
+    display: flow-root;
+}
+
+.imagenproducto{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+
+.nombreproducto{
+    position: relative;
+    width: 100%;
+    height: 15%;
+
+    padding: 7%;
+    text-align: center;
+}
+.nombreproducto p{
+    font-size: 40px;
+    font-weight: 700;
+}
+.precioproducto{
+    position: relative;
+    width: 100%;
+    top: 3.5%;
+    height: 10%;
+    padding: 3%;
+    text-align: center;
+}
+.precioproducto p{
+    font-size: 30px;
+}
+.comprarproducto{
+    position: relative;
+    width: 100%;
+    height: 10%;
+
+}
+.comprarproductoboton{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 100%;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: none;
+    font-weight: 700;
+}
+.comprarproductoboton:hover{
+    color: black;
+    background-color: white;
+    border: 2px black solid;
+}
+
+.zapato{
+    background-size: cover;
+    background-position: center 76%;
+    background-repeat: no-repeat;
+}
+
+.zapato1{
+    background-image: url(../images/Articulos/Articulo-1.webp);
+    
+}
+.zapato2{
+    background-image: url(../images/Articulos/Articulo-2.webp);
+    
+}
+.zapato3{
+    background-image: url(../images/Articulos/Articulo-3.webp);
+    
+}
+.zapato4{
+    background-image: url(../images/Articulos/Articulo-4.webp);
+}

@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+
+/* CSS DEL MENU */
+
+
+.nombreweb h1{
+    font-size: 50px;
+}
+
+div.menu {
+    background-color: rgb(43, 43, 43);
+    margin: 0.3%;
+    position: relative;
+    width: 99.3%;
+    height: 80px;
+}
+
+.webinfo{
+    position: absolute;
+    
+    top: 11%;
+    left: 1%;
+    width: 20%;
+    height: 80%;
+}
+
+.logo {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    bottom: 10px;
+    top: -12px;
+}
+
+div.logo > img{
+    background-color: transparent;
+    max-width: 80%;
+}
+
+div.nombreweb{
+    position: absolute;
+    left: 28%;
+    top: 6%;
+}
+
+.all{
+    color: white;
+}
+
+.shoes{
+    color: orangered;
+}
+
+div.menuenlaces{
+    position: absolute;
+    top: 11%;
+    left: 35%;
+    width: 64.5%;
+    height: 80%;
+    display: flow-root;
+    top: 20%;
+    
+}
+
+div.menuenlaces div {
+    width:auto;
+    float: right;
+    text-align: center;
+    
+}
+
+.menuenlaces div a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+    text-wrap: nowrap;
+}
+.menuenlaces div a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.linea:after {
+    content: " ";
+    display: block;
+    border-bottom: 3px solid rgb(51, 51, 51);
+    display: relative;
+    height: 12px;
+}
+
+
+
+.contenedor{
+    margin: 0.3%;
+    position: relative;
+    width: 99.3%;
+    height: 690px;
+    display: flow-root;
+}
+
+.titulo{
+    margin: 0.3%;
+    position: relative;
+    width: 99.3%;
+    height: 70px;
+    text-align: center;
+    padding: 25px;
+}
+
+.titulo h1{
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(51, 51, 51);
+}
+
+/* CSS DE LA WEB*/
+
+/* CSS DE LA IMAGEN DE LA IZQUIERDA*/
+
+.imagen{
+    float: left;
+    position: relative;
+    left: 2%;
+    top: 5%;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    background-image: url(../images/Tienda/Tienda-1.webp);
+    background-size: cover;
+    background-position: center 76%;
+    background-repeat: no-repeat;
+    max-width: 45%;
+}
+
+/* CSS DEL TEXTO DE LA DERECHA*/
+
+.informacion{
+    float: left;
+    float: left;
+    position: relative;
+    left: 6%;
+    top: 5%;
+    width: 47%;
+    height: 600px;
+}
+
+.empresa{
+    margin: 0.3%;
+    position: relative;
+    top: 4%;
+    width: 35%;
+    height: 50px;
+    color: rgb(51, 51, 51);
+}
+.empresa p{
+    font-size: 32px;
+}
+.nombreempresa{
+    margin: 0.3%;
+    position: relative;
+    top: 5%;
+    width: 35%;
+    height: 80px;
+    display: flow-root;
+}
+.logoempresa{
+    position: absolute;
+    bottom: 10px;
+    max-width: 30%;
+}
+div.logoempresa > img{
+    background-color: transparent;
+    width: 95%;
+}
+.textoempresa{
+    position: relative;
+    left: 30%;
+    position: relative;
+    width: 40%;
+    font-weight: 20;
+}
+.all2{
+    color: black;
+    font-size: 40px;
+}
+.shoes2{
+    color: orangered;
+    font-size: 40px;
+}
+.texto1{
+    margin: 0.3%;
+    position: relative;
+    top: 5%;
+    width: 99.5%;
+    height: 130px;
+}
+.texto1 p{
+    font-weight: 700;
+    font-size: 25px;
+    font-style: italic;
+}
+.texto2{
+    margin: 0.3%;
+    position: relative;
+    top: 5%;
+    width: 99.5%;
+    height: 200px;
+}
+.texto2 p{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.redes{
+    display: flow-root;
+    margin: 0.3%;
+    position: relative;
+    top: 5%;
+    width: 80%;
+    height: 50px;
+}
+.instagram img{
+    float: left;
+    width: 15%;
+    height: 90%;
+    margin: 4px;
+    background-color: transparent;
+
+    width: 10%;
+}
+.facebook img{
+    float: left;
+    width: 15%;
+    height: 90%;
+    margin: 4px;
+    background-color: transparent;
+    width: 10%;
+}
+.twitter img{
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin: 4px;
+    background-color: transparent;
+    width: 10%;
+}
